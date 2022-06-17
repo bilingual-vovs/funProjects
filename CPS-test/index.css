@@ -1,0 +1,76 @@
+*{
+    transition-duration: 300ms;
+}
+body{
+    background-color: #4C3A51;
+}
+div{
+    background-color: #774360;
+    border: solid;
+    border-color: #B25068;
+    border-radius: 10px;
+    border-width: 5px;
+    color: #E7AB79;
+}
+#tests-div{
+    position: absolute;
+    top: 20vh;
+    left: 15vw;
+    height: 60vh;
+    width: 7vw;
+}
+#graph-div{
+    position: absolute;
+    top: 65vh;
+    left: 25vw;
+    height: 15vh;
+    width: 47vw;
+}
+#result-div{
+    position: absolute;
+    top: 65vh;
+    left: 75vw;
+    height: 15vh;
+    width: 10vw;
+    text-align: center;
+}
+#result{
+    margin-top: 2.75vh;
+    font-size: 8vh;
+    font-style: monospace;
+    font-weight: 500;
+}
+#cps-div{
+    position: absolute;
+    top: 20vh;
+    left: 25vw;
+    height: 40vh;
+    width: 60vw;
+}
+.tests{
+    background-color: #B25068;
+    color: #E7AB79;
+    border: solid;
+    border-color: #E7AB79;
+    border-radius: 5px;
+    border-width: 2px;
+    list-style: none;
+    margin-top: 2vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    height: 4vh;
+    padding: 0;
+}
+.tests:hover{
+    margin-left: 0.25vw;
+    margin-right: 0.25vw;
+    box-shadow: 0px 10px 0px 0px #4C3A51;
+}
+p{
+    margin: none;
+    text-align: center;
+    line-height: 0;
+    font-weight: 900;
+    font-family: monospace;
+    font-size: 2vh;
+}
